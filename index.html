@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIK.</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dynamics.css">
+</head>
+
+<body>
+
+    <!--First interface-->
+    <section>
+        <div class="container-fluid interface1 text-white text-center">
+            <nav class="navbar navbar-expand-sm padset mb-2 navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-start" href="#"><img src="images/Logo.png" width="100px" height="20px"
+                            alt="Logo"></a> <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav me-4">
+                            <li class="nav-item"> <a
+                                    class="nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                    href="#">HOME</a> </li>
+                            <li class="nav-item"> <a
+                                    class="nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                    href="#">SPEAKERS <img src="images/icons/arrow-down-3.png" alt="downarrow"></a>
+                            </li>
+                            <li class="nav-item"> <a
+                                    class="nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                    href="#">SCHEDULE <img src="images/icons/arrow-down-3.png" alt="downarrow"></a>
+                            </li>
+                            <li class="nav-item"> <a
+                                    class="nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                    href="#">CONTACT US</a> </li>
+                        </ul>
+                        <button href="#"
+                            class="btn navbtn fw-bold fs-xs text-center text-nowrap schemeblue bg-white">GET
+                            TICKETS</button>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="row justify-content-center w-100">
+
+                <h1 class="text-white py-5 fw-bold text-wrap headtext mt-1 headerbanner">The Best Experience Of <span
+                        class="music">Music</span> In 2021</h1>
+                <p class="fw-normal mb-4 raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    vitae ligula <br> placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.
+                </p>
+                <div class="btnscontainer mb-5">
+                    <button class="btn d-inline interbtn1 text-white text-nowrap getstartedbtn fw-bold">Get
+                        Started</button>
+                    <button class="btn d-inline interbtn1 text-white text-nowrap videobtn fw-bold"> <img
+                            src="images/icons/Play.png" alt="playicn" width="46px" height="46px"><span>
+                        </span><span>Watch Video</span></button>
+                </div>
+                <div class="timer">
+                    <p class="countdown fw-bolder" id="countdown"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Second interface (category) -->
+    <section>
+        <div class="container-fluid pt-5 interface2 spacer">
+            <h2 class="padset fw-bold py-5 mt-5"><span class="schemeblue">Explore</span> By Category</h2>
+            <div class="row d-flex gap-3 slider1">
+                <div class="card card1">
+                    <div class="cardcont pt-5">
+                        <img src="images/icons/mixer.png" alt="mixer" class="carditemsmargin" id="mixer">
+                        <h3 class="fw-bolder fs-4 lh-lg text-black carditemsmargin">Pop</h3>
+                        <p class="fw-normal fs-sm carditemsmargin raleway text-dark"> Duis nec sodales nibh. <br>Proin
+                            lectus
+                            tortor, rutrum
+                            <br> vel vulputate vitae
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card card2">
+                    <div class="cardcont pt-5">
+                        <img src="images/icons/bagpipes (2).png" alt="bagpipes" class="carditemsmargin" id="bagpipes">
+                        <h3 class="fw-bolder fs-4 lh-lg text-black carditemsmargin">Folk</h3>
+                        <p class="fw-normal fs-sm carditemsmargin raleway text-dark"> Duis nec sodales nibh. <br>Proin
+                            lectus
+                            tortor, rutrum
+                            <br> vel vulputate vitae
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card card3">
+                    <div class="cardcont pt-5">
+                        <img src="images/icons/Saxophone.png" alt="saxo" class="carditemsmargin" id="saxo">
+                        <h3 class="fw-bolder fs-4 lh-lg text-black carditemsmargin">Instrumental</h3>
+                        <p class="fw-normal fs-sm carditemsmargin raleway text-dark"> Duis nec sodales nibh. <br>Proin
+                            lectus
+                            tortor, rutrum
+                            <br> vel vulputate vitae
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card card4">
+                    <div class="cardcont pt-5">
+                        <img src="images/icons/guitar (2).png" alt="guitar" class="carditemsmargin" id="guitar">
+                        <h3 class="fw-bolder fs-4 lh-lg text-black carditemsmargin">Rock</h3>
+                        <p class="fw-normal fs-sm carditemsmargin raleway text-dark"> Duis nec sodales nibh. <br>Proin
+                            lectus
+                            tortor, rutrum
+                            <br> vel vulputate vitae
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card card5">
+                    <div class="cardcont pt-5">
+                        <img src="images/icons/trumpet (2).png" alt="trumpet" class="carditemsmargin" id="trumpet">
+                        <h3 class="fw-bolder fs-4 lh-lg text-black carditemsmargin">Jazz</h3>
+                        <p class="fw-normal fs-sm carditemsmargin raleway text-dark"> Duis nec sodales nibh. <br>Proin
+                            lectus
+                            tortor, rutrum
+                            <br> vel vulputate vitae
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Third interface-->
+    <section>
+        <div class="container-fluid pt-5 spacer interface3">
+            <div class="row justify-content-center">
+                <img src="images/double2.png" alt="doubleimg" class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-12 d-block textpad">
+                    <h2 class="fw-bold py-5">About Musik</h2>
+                    <p class="raleway text-dark fw-normal fs-6 lh-base mb-4">Fusce justo mi, vehicula id arcu et,
+                        dapibus
+                        tristique lectus. Vivamus a elit <br> sodales, tincidunt nunc non, maximus lacus. Fusce a augue
+                        sed dolor auctor <br> iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus.
+                        Mauris et <br>erat id ipsum condimentum cursus. Sed tempus enim non massa mattis <br>iaculis. In
+                        quis massa risus</p>
+                    <button type="button" class="btn learnmore mt-5">
+                        <h5 class="fs-6 fw-bold d-inline">Learn More </h5><i class="bi bi-arrow-right-short fs-4"></i>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Fourth interface-->
+    <section>
+        <div class="container-fluid pt-5 spacer interface4">
+            <div class="row imgrow2 justify-content-center">
+                <div class="col-lg-6 col-md-6 col-12 singerstext textpad">
+                    <h2 class="fw-bold py-5">Singers</h2>
+                    <p class="raleway text-dark fw-normal fs-6 lh-base mb-4">Fusce justo mi, vehicula id arcu et,
+                        dapibus tristique lectus. <br> Vivamus a elit sodales, tincidunt nunc non, maximus lacus. <br>
+                        Fusce a
+                        augue sed dolor auctor iaculis vitae id mauris. Integer <br> ut lectus non neque suscipit
+                        luctus.
+                        Mauris et erat id ipsum <br>condimentum cursus. Sed tempus enim non massa mattis <br> iaculis.
+                        In quis
+                        massa risus</p>
+                    <button type="button" class="btn learnmore mt-5">
+                        <h5 class="fs-6 fw-bold d-inline text-capitalize text-nowrap">View all singers</h5><i
+                            class="bi bi-arrow-right-short fs-4"></i>
+                    </button>
+
+                </div>
+                <img src="images/gallery.png" alt="gallery" class="col-lg-6">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Fifth interface (table) -->
+    <section>
+        <div class="container-fluid pt-5 interface5 spacer">
+            <div class="padset">
+                <h2 class="fw-bold py-5 mt-5">Event Schedule</h2>
+                <div class="mb-5 row gap-3">
+                    <button href="#" class="datenonselected dateselected" id="day1Btn" onclick="">
+                        <h3 class="day fw-bolder fs-4 lh-lg">Day 01</h3>
+                        <h5 class="date fw-bold fs-6 lh-sm">16 August</h5>
+                    </button>
+                    <button href="#" class="datenonselected" id="day2Btn" onclick="">
+                        <h3 class="day fw-bolder fs-4 lh-lg">Day 02</h3>
+                        <h5 class="date fw-bold fs-6 lh-sm">17 August</h5>
+                    </button>
+                    <button href="#" class="datenonselected" id="day3Btn" onclick="">
+                        <h3 class="day fw-bolder fs-4 lh-lg">Day 03</h3>
+                        <h5 class="date fw-bold fs-6 lh-sm">18 August</h5>
+                    </button>
+                </div>
+            </div>
+            <div class="padsetable">
+                <table class="table mt-3 table-hover contentall showtable col-9 ">
+                    <thead class="">
+                        <tr>
+                            <th class="h4 fw-bold lh-lg edge1 raleway time">Time</th>
+                            <th class="h4 fw-bold lh-lg raleway content">Content</th>
+                            <th class="h4 fw-bold lh-lg raleway speak">Speakers</th>
+                            <th class="h4 fw-bold lh-lg edge2"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway borderow">
+                                <p id="time1" class="text-nowrap">11:00 AM to 12:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6 borderow">
+                                <p id="content1">Vestibulum vel eros vel metus lacinia feugiat nec metus.
+                                </p>
+                            </td>
+                            <td id="speak1">
+                                <div class="d-flex gap-2 mb-4" id="speakeremma1">
+                                    <img src="images/avatars/Avatar (3).png" alt="emma" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Emma Satoshi</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2A35</span></p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakeryui1">
+                                    <img src="images/avatars/Avatar (2).png" alt="yui" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Yui Roland</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F12</span></p>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Preview<img
+                                        src="images/icons/Play1.png" alt=""></h5>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time2" class="text-nowrap">12:00 PM to 03:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content2">Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                                    vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                    pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas
+                                    dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi
+                                    quis luctus leo, nec cursus ex.</p>
+                            </td>
+                            <td id="speak2">
+                                <div class="d-flex gap-2 mb-4" id="speakerbob2">
+                                    <img src="images/avatars/Avatar (1).png" alt="bob" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Bob John</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">3G12</span></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakersasha2">
+                                    <img src="images/avatars/Avatar (4).png" alt="sasha" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Sasha Jackson</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F18</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2 livecolor">Live
+                                    <img src="images/icons/Live Camera.png" alt="">
+                                </h5>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time3" class="text-nowrap">03:00 PM to 04:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content3">Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                                    vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                    pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas
+                                    dolor. Donec eu augue enim.
+                            </td>
+                            <td id="speak3">
+                                <div class="d-flex gap-2 mb-4" id="speakerbob3">
+                                    <img src="images/avatars/Avatar (1).png" alt="bob" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Bob John</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">3G12</span></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakerdiona3">
+                                    <img src="images/avatars/Avatar (5).png" alt="diona" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Diona Brock</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F24</span></p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakeremma3">
+                                    <img src="images/avatars/Avatar (3).png" alt="emma" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Emma Satoshi</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2A35</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Upcoming <img
+                                        src="images/icons/Clock.png" alt="">
+                                </h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table mt-3 table-hover contentall padsetable col-9">
+                    <thead class="">
+                        <tr>
+                            <th class="h4 fw-bold lh-lg edge1 raleway time">Time</th>
+                            <th class="h4 fw-bold lh-lg raleway content">Content</th>
+                            <th class="h4 fw-bold lh-lg raleway speak">Speakers</th>
+                            <th class="h4 fw-bold lh-lg edge2"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway borderow">
+                                <p id="time1" class="text-nowrap">11:00 AM to 12:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6 borderow">
+                                <p id="content1">Duis nec sodales nibh. Proin lectus tortor rutrum vel
+                                    vulputate vitae, fringilla id magna. Fusce vel egestas
+                                    dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi
+                                    qui luctus leo, nec cursus ex.</p>
+                            </td>
+                            <td id="speak1">
+
+
+                                <div class="d-flex gap-2 mb-4" id="speakersasha1">
+                                    <img src="images/avatars/Avatar (4).png" alt="sasha" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Sasha Jackson</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F18</span></p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakeremma1">
+                                    <img src="images/avatars/Avatar (3).png" alt="emma" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Emma Satoshi</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2A35</span></p>
+                                    </div>
+
+                                </div>
+
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Preview <img
+                                        src="images/icons/Play1.png" alt="">
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time2" class="text-nowrap">12:00 PM to 03:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content2"> rutrum non lacus ac rhoncus. Morbi quis
+                                    luctus <br> leo, nec cursus ex.</p>
+                            </td>
+                            <td id="speak2">
+                                <div class="d-flex gap-2 mb-4" id="speakerbob2">
+                                    <img src="images/avatars/Avatar (1).png" alt="bob" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Bob John</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">3G12</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex gap-2 mb-4" id="speakeryui2">
+                                    <img src="images/avatars/Avatar (2).png" alt="yui" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Yui Roland</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F12</span></p>
+                                    </div>
+
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2 livecolor">Live <img
+                                        src="images/icons/Live Camera.png" alt="">
+
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time3" class="text-nowrap">03:00 PM to 04:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content3">Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                                    vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec
+                                    pulvinar.
+                            </td>
+                            <td id="speak3">
+                                <div class="d-flex gap-2 mb-4" id="speakerbob3">
+                                    <img src="images/avatars/Avatar (1).png" alt="bob" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Bob John</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">3G12</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Upcoming <img
+                                        src="images/icons/Clock.png" alt="">
+                                </h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table mt-3 table-hover contentall padsetable col-9">
+                    <thead class="">
+                        <tr>
+                            <th class="h4 fw-bold lh-lg edge1 raleway time">Time</th>
+                            <th class="h4 fw-bold lh-lg raleway content">Content</th>
+                            <th class="h4 fw-bold lh-lg raleway speak">Speakers</th>
+                            <th class="h4 fw-bold lh-lg edge2"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway borderow">
+                                <p id="time1" class="text-nowrap">11:00 AM to 12:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6 borderow">
+                                <p id="content1">Duis nec sodales nibh. Praesent porttitor convallis
+                                    blandit.
+                                    Fusce vel egestas
+                                    dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi
+                                    quis
+                                    luctus leo, nec cursus ex.</p>
+                            </td>
+                            <td id="speak1">
+
+                                <div class="d-flex gap-2 mb-4" id="speakerdiona1">
+                                    <img src="images/avatars/Avatar (5).png" alt="diona" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Diona Brock</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F24</span></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakersasha1">
+                                    <img src="images/avatars/Avatar (4).png" alt="sasha" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Sasha Jackson</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F18</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Preview <img
+                                        src="images/icons/Play1.png" alt="">
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time2" class="text-nowrap">12:00 PM to 03:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content2">Vestibulum ornare eget urna nec
+                                    pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas
+                                    dolor.
+                            </td>
+                            <td id="speak2">
+
+                                <div class="d-flex gap-2 mb-4" id="speakeryui2">
+                                    <img src="images/avatars/Avatar (2).png" alt="yui" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Yui Roland</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F12</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2 livecolor">Live <img
+                                        src="images/icons/Live Camera.png" alt="">
+
+                                </h5>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fs-6 fw-normal lh-base raleway">
+                                <p id="time3" class="text-nowrap">03:00 PM to 04:00 PM</p>
+                            </td>
+                            <td class="text-dark fw-bold lh-base raleway fs-6">
+                                <p id="content3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Pariatur,
+                                    laborum nobis assumenda deserunt porro mollitia animi dolorem et.
+                                    Excepturi
+                                    odio
+                                    doloribus sed, culpa mollitia laborum totam cupiditate ad aut iure?</p>
+                            </td>
+                            <td id="speak3">
+                                <div class="d-flex gap-2 mb-4" id="speakerbob3">
+                                    <img src="images/avatars/Avatar (1).png" alt="bob" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Bob John</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">3G12</span></p>
+                                    </div>
+                                </div>
+                                <div class="d-flex gap-2 mb-4" id="speakeryui3">
+                                    <img src="images/avatars/Avatar (2).png" alt="yui" class="d-inline user_img">
+                                    <div class="userinfo">
+                                        <h6 class="text-dark fw-bold lh-base raleway">Yui Roland</h6>
+                                        <p class="fs-6 fw-normal lh-base raleway">Booth: <span
+                                                class="userboothcode fw-bold">2F12</span></p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="status">
+                                <h5 class="d-inline text-nowrap fw-bold lh-sm text-end fs-6 me-2">Upcoming <img
+                                        src="images/icons/Clock.png" alt="">
+                                </h5>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <!--Sixth interface (price table) -->
+    <section>
+        <div class="container-fluid interface6 spacer pb-5 padset3">
+            <h2 class="fw-bold text-center fs-2 lh-lg text-dark">Choose a Tier that's right for you</h2>
+
+            <div class="row justify-content-center gap-4 text-center">
+                <div class="pricecard bg-white col-lg-2 col-md-3 col-sm-8 mt-5 d-flex justify-content-center pt-3"
+                    id="basic">
+                    <h3 class="fs-4 fw-bolder lh-xl">Basic</h3>
+                    <h2 class="planprice fw-bold">$100</h2>
+
+                    <p class="raleway fw-normal text-dark">1 seat available <span class="opacity-50"><br>Access to Wifi
+                            Router <br>Free Food & Coffee</p></span>
+                    <button href="#" class="btn text-nowrap pricebtn schemeblue bg-white">
+                        <h5 class="fw-bold fs-6 text-center text-capitalize">Get Tickets</h5>
+                    </button>
+                </div>
+                <div class="pricecard bg-white col-lg-2 col-md-3 col-sm-8 mt-5 d-flex justify-content-center pt-3 schemeblue"
+                    id="standard">
+                    <h3 class="fs-4 fw-bolder lh-xl">Standard</h3>
+                    <h2 class="planprice fw-bold">$150</h2>
+                    <p class="raleway fw-normal text-dark">1 seat available<br> Access to Wifi Router <br><span
+                            class="opacity-50">Free Food & Coffee</span></p>
+
+                    <button href="#" class="btn text-nowrap pricebtn schemeblue bg-white">
+                        <h5 class="fw-bold fs-6 text-center text-capitalize">Get Tickets</h5>
+                    </button>
+                </div>
+                <div class="pricecard bg-white col-lg-2 col-md-3 col-sm-8 mt-5 d-flex justify-content-center pt-3"
+                    id="premium">
+                    <h3 class="fs-4 fw-bolder lh-xl">Premium</h3>
+                    <h2 class="planprice fw-bold">$200</h2>
+
+                    <p class="raleway fw-normal text-dark">1 seat available<br> Access to Wifi Router <br>Free Food &
+                        Coffee</p>
+                    <button href="#" class="btn text-nowrap pricebtn schemeblue bg-white">
+                        <h5 class="fw-bold fs-6 text-center text-capitalize">Get Tickets</h5>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--Seventh interface (sponsors) -->
+    <section>
+        <div class="container-fluid interface7 spacer pb-5">
+            <h2 class="fw-bold text-center fs-2 lh-lg text-dark">Our Sponsors</h2>
+
+            <div class="row justify-content-evenly gap-5 text-center padset mt-3 spons">
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (7).png"
+                        alt="Google"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (8).png"
+                        alt="Microsoft"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (9).png"
+                        alt="Airbnb"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (10).png"
+                        alt="Axure"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (11).png"
+                        alt="Apple"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (12).png"
+                        alt="Facebook"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (13).png"
+                        alt="NOKIA"></div>
+                <div class="sponsoritem col-lg-2 col-md-4 col-sm-10"><img src="images/sponsors/Img (14).png"
+                        alt="Oracle"></div>
+                <button href="#" class="btn text-nowrap sponbtn col-12 me-5 text-white">
+                    <h5 class="fw-bold fs-6 text-center">Become a Sponsor</h5>
+                </button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--Eighth interface (testimonials) -->
+    <section>
+        <div class="container-fluid spacer pt-5 interface8 text-center">
+            <h2 class="fw-bold text-center fs-2 lh-lg text-dark mb-5">Testimonials</h2>
+            <div class="owl-carousel row justify-content-center gap-4" id="testimonsel">
+                <div class="row w-100 cardsfix fadeclass">
+                    <div class="testcard text-center fw-normal col-lg-3">
+                        <p class="fs-sm lh-base px-3">
+                            <span><img src="images/icons/Quotes1.png" alt="" class="text-left quoteup" width="30px"
+                                    height="30px"></span>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an <br> unknown printer
+                            took
+                            a galley of type and scrambled it to make a type specimen book.
+                            <span><img src="images/icons/Quotes.png" alt="" class="text-right quotedown" width="30px"
+                                    height="30px"></span>
+                        </p>
+                    </div>
+                    <div class="avinfo text-center">
+                        <img src="images/avatars/Avatar (6).png" alt="johnnydoe">
+                        <h4 class="fw-bolder lh-md">Ellie James</h4>
+                        <span class="fw-normal fs-6 lh-base">ipsum.com</span>
+                    </div>
+                </div>
+                <div class="row w-100 cardsfix fadeclass">
+                    <div class="testcard text-center fw-normal col-lg-3">
+                        <p class="fs-sm lh-base px-3">
+                            <span><img src="images/icons/Quotes1.png" alt="" class="text-left quoteup" width="30px"
+                                    height="30px"></span>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an <br> unknown printer
+                            took
+                            a galley of type and scrambled it to make a type specimen book.
+                            <span><img src="images/icons/Quotes.png" alt="" class="text-right quotedown" width="30px"
+                                    height="30px"></span>
+                        </p>
+                    </div>
+                    <div class="avinfo text-center">
+                        <img src="images/avatars/Avatar (8).png" alt="johnnydoe">
+                        <h4 class="fw-bolder lh-md">Myne Barack</h4>
+                        <span class="fw-normal fs-6 lh-base">ipsum.com</span>
+                    </div>
+                </div>
+                <div class="row w-100 cardsfix fadeclass">
+                    <div class="testcard text-center fw-normal col-lg-3">
+                        <p class="fs-sm lh-base px-3">
+                            <span><img src="images/icons/Quotes1.png" alt="" class="text-left quoteup" width="30px"
+                                    height="30px"></span>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br> Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an <br> unknown printer
+                            took
+                            a galley of type and scrambled it to make a type specimen book.
+                            <span><img src="images/icons/Quotes.png" alt="" class="text-right quotedown" width="30px"
+                                    height="30px"></span>
+                        </p>
+                    </div>
+                    <div class="avinfo text-center">
+                        <img src="images/avatars/Avatar (7).png" alt="johnnydoe">
+                        <h4 class="fw-bolder lh-md">Johnny Doe</h4>
+                        <span class="fw-normal fs-6 lh-base">ipsum.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Ninth interface (shots) -->
+    <section>
+        <div class="container-fluid interface9 spacer">
+            <h2 class="fw-bold padset fs-2 text-dark mb-5 lh-lg shotsh2">See our Best Shots</h2>
+            <div class="owl-carousel row justify-content-center gap-4" id="shotsel">
+                <div class="shot">
+                    <div class="photoshot text-center">
+                        <img src="images/Img.png" alt="">
+                    </div>
+                    <div class="photocaption bg-white">
+                        <span class="actionicn fw-bold fs-6 lh-sm me-5"><img src="images/icons/Heart.png" alt="">
+                            412</span> <span class="actionicn fw-bold fs-6 lh-sm"><img src="images/icons/Chat.png"
+                                alt=""> 140 </span>
+                        <p class="fs-6 fw-normal lh-base mt-2">Lorem Ipsum Amet</p>
+                        <p class="fw-normal fs-6 lh-base opacity-50">#music #concert #conference #london #event <br>
+                            #artist #dj #soundtrack #dance</p>
+                    </div>
+                </div>
+                <div class="shot">
+                    <div class="photoshot text-center">
+                        <img src="images/Img (15).png" alt="">
+                    </div>
+                    <div class="photocaption bg-white">
+                        <span class="actionicn fw-bold fs-6 lh-sm me-5"><img src="images/icons/Heart.png" alt="">
+                            412</span> <span class="actionicn fw-bold fs-6 lh-sm"><img src="images/icons/Chat.png"
+                                alt=""> 140 </span>
+                        <p class="fs-6 fw-normal lh-base mt-2">Lorem Ipsum Amet</p>
+                        <p class="fw-normal fs-6 lh-base opacity-50">#music #concert #conference #london #event <br>
+                            #artist #dj #soundtrack #dance</p>
+                    </div>
+                </div>
+                <div class="shot">
+                    <div class="photoshot text-center">
+                        <img src="images/Img (16).png" alt="">
+                    </div>
+                    <div class="photocaption bg-white">
+                        <span class="actionicn fw-bold fs-6 lh-sm me-5"><img src="images/icons/Heart.png" alt="">
+                            412</span> <span class="actionicn fw-bold fs-6 lh-sm"><img src="images/icons/Chat.png"
+                                alt=""> 140 </span>
+                        <p class="fs-6 fw-normal lh-base mt-2">Lorem Ipsum Amet</p>
+                        <p class="fw-normal fs-6 lh-base opacity-50">#music #concert #conference #london #event <br>
+                            #artist #dj #soundtrack #dance</p>
+                    </div>
+                </div>
+                <div class="shot">
+                    <div class="photoshot text-center">
+                        <img src="images/Img (17).png" alt="">
+                    </div>
+                    <div class="photocaption bg-white">
+                        <span class="actionicn fw-bold fs-6 lh-sm me-5"><img src="images/icons/Heart.png" alt="">
+                            412</span> <span class="actionicn fw-bold fs-6 lh-sm"><img src="images/icons/Chat.png"
+                                alt=""> 140 </span>
+                        <p class="fs-6 fw-normal lh-base mt-2">Lorem Ipsum Amet</p>
+                        <p class="fw-normal fs-6 lh-base opacity-50">#music #concert #conference #london #event <br>
+                            #artist #dj #soundtrack #dance</p>
+                    </div>
+                </div>
+                <div class="shot">
+                    <div class="photoshot text-center">
+                        <img src="images/Img (18).png" alt="">
+                    </div>
+                    <div class="photocaption bg-white">
+                        <span class="actionicn fw-bold fs-6 lh-sm me-5"><img src="images/icons/Heart.png" alt="">
+                            412</span> <span class="actionicn fw-bold fs-6 lh-sm"><img src="images/icons/Chat.png"
+                                alt=""> 140 </span>
+                        <p class="fs-6 fw-normal lh-base mt-2">Lorem Ipsum Amet</p>
+                        <p class="fw-normal fs-6 lh-base opacity-50">#music #concert #conference #london #event <br>
+                            #artist #dj #soundtrack #dance</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--Tenth interface (form) -->
+    <section>
+        <div class="container-fluid spacer interface10">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-12 contactus">
+                    <h2 class="fw-bold text-white lh-lg fs-2">Contact us</h2>
+                    <p class="fw-normal lh-lg text-white opacity-75 fs-4 raleway mb-5">Have an inquiry? We'll be happy
+                        to assist you</p>
+                    <h5 class="mt-5 fw-bold fs-6 lh-sm text-white"><img src="images/icons/Phone.png" alt="phone"
+                            class="me-2">+92 333 6527366</h5>
+                    <h5 class="mt-4 fw-bold fs-6 lh-sm text-white"><img src="images/icons/Email.png" alt="mail"
+                            class="me-2">abuzer@greelogix.com</h5>
+                    <h5 class="mt-4 fw-bold fs-6 lh-sm text-white"><img src="images/icons/Map Pin.png" alt="address"
+                            class="me-2">Plot 252, Block L Phase 2 Johar Town, Lahore, PK</h5>
+                    <br><br><br><br><br><br>
+                </div>
+                <div class="col-md-7 col-12 formbody">
+                    <h3 class="fw-bolder lh-lg text-dark fs-4 ">Fill in your details</h3>
+                    <form action="" method="POST" onsubmit="return formValidate()">
+                        <label for="name" class="form-label lh-1 fw-bold fs-xs raleway">Name</label>
+                        <span id="error_name" class="errors lh-sm fs-sm lh-sm"></span>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe" name="user_name"
+                            onchange="return nameValid()">
+
+
+
+                        <label for="email" class="lh-1 fw-bold fs-xs raleway">Email</label>
+                        <span id="error_email" class="errors lh-sm fs-sm lh-sm"></span>
+                        <input type="text" class="form-control" id="email" placeholder="johndoe2347@mail.com"
+                            name="user_email" onchange="return emailValid()">
+
+
+
+                        <label for="msg" class="lh-1 fw-bold fs-xs raleway schemeblue">Message</label>
+                        <span id="error_msg" class="errors"></span>
+                        <textarea id="msg" name="user_msg" class="form-control mb-5 lh-sm fs-sm lh-sm" rows="5"
+                            onchange="return noSpam()"></textarea>
+                        <button type="submit" id="submitbtn" class="btn form-control">
+                            <h5 class="fw-bold text-white text-nowrap fs-6 lh-sm">Submit</h5>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Eleventh interface-->
+    <section>
+        <div class="container-fluid footerface navbar-expand-sm padset pt-5">
+            <div class="logo">
+                <a class="navbar-brand text-start bottomlogo" href="#"><img src="images/Logo.png" width="100px"
+                        height="20px" alt="Logo"></a>
+            </div>
+            <div class="footerbar row">
+                <div class="footernav col-md-7 navbar-collapse">
+                    <ul class="navbar-nav me-4">
+                        <li class="nav-item"> <a
+                                class="bottom-nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                href="#">HOME</a> </li>
+                        <li class="nav-item"> <a
+                                class="bottom-nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                href="#">company</a>
+                        </li>
+                        <li class="nav-item"> <a
+                                class="bottom-nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                href="#">blog</a>
+                        </li>
+                        <li class="nav-item"> <a
+                                class="bottom-nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                href="#">CONTACT
+                                US</a> </li>
+                        <li class="nav-item"> <a
+                                class="bottom-nav-link text-white fw-medium lh-sm fs-xs me-3 text-uppercase"
+                                href="#">sitemap</a> </li>
+                    </ul>
+                </div>
+                <div class="socialcontacts col-md-3">
+                    <a href="#" class="me-3"><img src="images/icons/Facebook.png" alt="fb"></a>
+                    <a href="#" class="me-3"><img src="images/icons/Twitter.png" alt="twii"></a>
+                    <a href="#" class="me-3"><img src="images/icons/Linkedin.png" alt="linkedin"></a>
+                    <a href="#" class="me-3"><img src="images/icons/Instagram.png" alt="insta"></a>
+                </div>
+                <p class="cred opacity-25 d-inline col-md-2 fw-normal fs-sm text-white text-end">© musik.com, 2021 </p>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

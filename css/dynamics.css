@@ -1,0 +1,79 @@
+.card {
+    width: 285px;
+    height: 240px;
+    border-radius: 24px;
+    position: relative;
+    border: 1px solid #cfc1c1;
+    padding-left: 0;
+    display: flex;
+
+}
+
+.card:before {
+    opacity: 10%;
+    position: absolute;
+    z-index: -1;
+}
+
+.card:hover {
+    opacity: 100%;
+    transition: 0.35s;
+}
+
+.card1 {
+    background: #db851d11;
+}
+
+.card1:hover {
+    background: #DB841D;
+}
+
+.card2 {
+    background: #fc525211;
+}
+
+.card2:hover {
+    background: #FC5252;
+}
+
+.card3 {
+    background: #391ddb11;
+}
+
+.card3:hover {
+    background: #391ddb ;
+}
+
+.card4 {
+    background: #c0009611;
+}
+
+.card4:hover {
+    background: #C00096;
+}
+
+.card5 {
+    background: #84c4ff11;
+}
+
+.card5:hover {
+    background: #84C4FF;
+}
+
+.cardcont:hover>p,
+.cardcont:hover h3 {
+    color: white !important;
+    transition: 0.35s;
+}
+
+@media only screen and (max-width:600px) {
+    .card, .cardcont{
+        margin: auto;
+        text-align: center;
+    }
+    .carditemsmargin{
+        margin-left: 0;
+    }
+    
+}
+
