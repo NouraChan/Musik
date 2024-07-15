@@ -613,3 +613,14 @@ form {
         margin-bottom: 20px;
     }
 }
+
+.owl-carousel .prev-slide{
+    position: absolute;
+    top: 90px;
+    left: -20px;
+  }
+  .owl-carousel .next-slide{
+    position: absolute;
+    top: 90px;
+    right: -20px;
+  }
